@@ -1,0 +1,304 @@
+{
+    "areas": {
+      "center": {
+        "locations": {
+          "בן שמן": {
+            "easy": [
+              {
+                "trail_name": "אמבטיית בן שמן",
+                "location_link": "https://off-road.io/mapitem/6141178007257088",
+                "location_easting": "650120",
+                "location_northing": "195829"
+              },
+              {
+                "trail_name": "מעלה הפרסה - בן שמן",
+                "location_link": "https://off-road.io/mapitem/6592106368860160",
+                "location_easting": "648846",
+                "location_northing": "196816"
+              },
+              {
+                "trail_name": "מעלה רצבי - בן שמן",
+                "location_link": "https://off-road.io/mapitem/5199515752071168",
+                "location_easting": "649463",
+                "location_northing": "195745"
+              }
+            ],
+            "medium": [],
+            "hard": [
+              {
+                "trail_name": "מעלה קובי - בן שמן",
+                "location_link": "https://off-road.io/mapitem/5452556759728128",
+                "location_easting": "649969",
+                "location_northing": "196267"
+              }
+            ]
+          },
+          "חדיד": {
+            "easy": [
+              {
+                "trail_name": "מעלה שחף - חדיד",
+                "location_link": "https://off-road.io/mapitem/5921923148021760",
+                "location_easting": "651026",
+                "location_northing": "196657"
+              }
+            ],
+            "medium": [
+              {
+                "trail_name": "מעלה השביל - חדיד",
+                "location_link": "https://off-road.io/mapitem/4994690103377920",
+                "location_easting": "652622",
+                "location_northing": "195096"
+              },
+              {
+                "trail_name": "ציר הג׳ימנאים - חדיד",
+                "location_link": "https://off-road.io/mapitem/5707072438009856",
+                "location_easting": "653050",
+                "location_northing": "196532"
+              },
+              {
+                "trail_name": "מעלה חזירקרוזר - חדיד",
+                "location_link": "https://off-road.io/mapitem/6247278934753280",
+                "location_easting": "651269",
+                "location_northing": "195499"
+              }
+            ],
+            "hard": [
+              {
+                "trail_name": "מעלה מורי - חדיד",
+                "location_link": "https://off-road.io/mapitem/4951978148364288",
+                "location_easting": "651701",
+                "location_northing": "196227"
+              },
+              {
+                "trail_name": "מעלה חביב הראל - חדיד",
+                "location_link": "https://off-road.io/mapitem/6001419202592768",
+                "location_easting": "651609",
+                "location_northing": "195364"
+              },
+              {
+                "trail_name": "מעלה אדם - חדיד",
+                "location_link": "https://off-road.io/mapitem/4796023241179136",
+                "location_easting": "651602",
+                "location_northing": "196467"
+              },
+              {
+                "trail_name": "מעלה 6 - חדיד",
+                "location_link": "https://off-road.io/mapitem/5283162458423296",
+                "location_easting": "653716",
+                "location_northing": "196926"
+              },
+              {
+                "trail_name": "מעלה טכנולוג - חדיד",
+                "location_link": "https://off-road.io/mapitem/6052848078946304",
+                "location_easting": "651629",
+                "location_northing": "195580"
+              },
+              {
+                "trail_name": "מעלה הסולטן - חדיד",
+                "location_link": "https://off-road.io/mapitem/5003719867891712",
+                "location_easting": "651989",
+                "location_northing": "195268"
+              }
+            ]
+          },
+          "תרום": {
+            "easy": [],
+            "medium": [
+              {
+                "trail_name": "מעלה הנחמד - תרום",
+                "location_link": "https://off-road.io/mapitem/6619166892097536",
+                "location_easting": "632065",
+                "location_northing": "198135"
+              },
+              {
+                "trail_name": "מעלה הנסתר - תרום",
+                "location_link": "https://off-road.io/mapitem/4635697212293120",
+                "location_easting": "632117",
+                "location_northing": "197832"
+              },
+              {
+                "trail_name": "מעלה עינוך - תרום",
+                "location_link": "https://off-road.io/mapitem/6577060661166080",
+                "location_easting": "632854",
+                "location_northing": "197274"
+              },
+              {
+                "trail_name": "מעלה הספסלים - תרום",
+                "location_link": "https://off-road.io/mapitem/6142953971515392",
+                "location_easting": "631359",
+                "location_northing": "198563"
+              },
+              {
+                "trail_name": "מעלה הר טוב - תרום",
+                "location_link": "https://off-road.io/mapitem/5700506141851648",
+                "location_easting": "630915",
+                "location_northing": "197810"
+              }
+            ],
+            "hard": [
+              {
+                "trail_name": "מעלה אנריקה - תרום",
+                "location_link": "https://off-road.io/mapitem/4553652062650368",
+                "location_easting": "631030",
+                "location_northing": "198156"
+              },
+              {
+                "trail_name": "מעלה אייל - תרום",
+                "location_link": "https://off-road.io/mapitem/5864451012034560",
+                "location_easting": "632162",
+                "location_northing": "196555"
+              },
+              {
+                "trail_name": "מעלה זלדה - תרום",
+                "location_link": "https://off-road.io/mapitem/5596915992363008",
+                "location_easting": "631307",
+                "location_northing": "198430"
+              }
+            ]
+          },
+          "פלמחים": {
+            "easy": [
+              {
+                "trail_name": "חמשת המעלות - פלמחים",
+                "location_link": "https://off-road.io/mapitem/5217724819046400",
+                "location_easting": "647902",
+                "location_northing": "176052"
+              }
+            ],
+            "medium": [],
+            "hard": []
+          },
+          "יער הקדושים": {
+            "easy": [],
+            "medium": [
+              {
+                "trail_name": "מעלה אשתאול - יער הקדושים",
+                "location_link": "https://off-road.io/mapitem/6422758129926144",
+                "location_easting": "632266",
+                "location_northing": "201484"
+              }
+            ],
+            "hard": []
+          },
+          "עמק האלה": {
+            "easy": [],
+            "medium": [
+              {
+                "trail_name": "מעלה צנובר - עמק האלה",
+                "location_link": "https://off-road.io/mapitem/5063356156215296",
+                "location_easting": "612604",
+                "location_northing": "195607"
+              }
+            ],
+            "hard": [
+              {
+                "trail_name": "מעלה ערקבי - עמק האלה",
+                "location_link": "https://off-road.io/mapitem/6144392472035328",
+                "location_easting": "610739",
+                "location_northing": "194461"
+              }
+            ]
+          },
+          "מצפה משואה": {
+            "easy": [],
+            "medium": [
+              {
+                "trail_name": "מעלה עקרבוט - מצפה משואה",
+                "location_link": "https://off-road.io/mapitem/5244093136371712",
+                "location_easting": "618909",
+                "location_northing": "192645"
+              }
+            ],
+            "hard": []
+          }
+        }
+      },
+      "south": {
+        "locations": {
+          "location_south_1": {
+            "easy": [],
+            "medium": [],
+            "hard": []
+          }
+        }
+      },
+      "north": {
+        "locations": {
+          "הר חורשן": {
+            "easy": [],
+            "medium": [
+              {
+                "trail_name": "המעלה הלבן - הר חורשן",
+                "location_link": "https://off-road.io/mapitem/5650862904967168",
+                "location_easting": "721241",
+                "location_northing": "202673"
+              },
+              {
+                "trail_name": "מעלה הנסתר - הר חורשן",
+                "location_link": "https://off-road.io/mapitem/5822494668226560",
+                "location_easting": "721472",
+                "location_northing": "202503"
+              },
+              {
+                "trail_name": "מעלה ללא שם - הר חורשן",
+                "location_link": "https://off-road.io/mapitem/5002307143991296",
+                "location_easting": "721352",
+                "location_northing": "202290"
+              },
+              {
+                "trail_name": "מעלה ליצ׳י - הר חורשן",
+                "location_link": "https://off-road.io/mapitem/6221067049762816",
+                "location_easting": "721440",
+                "location_northing": "201160"
+              },
+              {
+                "trail_name": "מעלה מונדר - הר חורשן",
+                "location_link": "https://off-road.io/mapitem/5283967425576960",
+                "location_easting": "722011",
+                "location_northing": "202269"
+              },
+              {
+                "trail_name": "מעלה ניניו - הר חורשן",
+                "location_link": "https://off-road.io/mapitem/5957842392055808",
+                "location_easting": "722889",
+                "location_northing": "201904"
+              }
+            ],
+            "hard": [
+              {
+                "trail_name": "מעלה הטרסות - הר חורשן",
+                "location_link": "https://off-road.io/mapitem/5854376720072704",
+                "location_easting": "722757",
+                "location_northing": "201446"
+              },
+              {
+                "trail_name": "מעלה מצוקי דניאל - הר חורשן",
+                "location_link": "https://off-road.io/mapitem/5185983986794496",
+                "location_easting": "610739",
+                "location_northing": "194461"
+              }
+            ]
+          },
+          "הכרמל": {
+            "easy": [],
+            "medium": [
+              {
+                "trail_name": "מעלה המוחרקה",
+                "location_link": "https://off-road.io/mapitem/4802637829505024",
+                "location_easting": "731098",
+                "location_northing": "209593"
+              },
+              {
+                "trail_name": "מעלה יגיל",
+                "location_link": "https://off-road.io/mapitem/5240178694160384",
+                "location_easting": "733336",
+                "location_northing": "201796"
+              }
+            ],
+            "hard": []
+          }
+        }
+      }
+    }
+  }
+  
