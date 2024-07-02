@@ -215,7 +215,12 @@
       },
       "south": {
         "locations": {
-          "location_south_1": {
+          "ים המלח": {
+            "easy": [],
+            "medium": [],
+            "hard": []
+          },
+          "מדבר יהודה": {
             "easy": [],
             "medium": [],
             "hard": []
