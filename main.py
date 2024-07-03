@@ -107,19 +107,22 @@ def get_trail_links_by_difficulty(area, location, difficulty, trail_data):
 
 # Handle the /start command
 async def start(update: Update, context: CallbackContext):
+    if not context.user_data.get("start_message_sent", False):
+        await send_welcome_message(update, context)
+        context.user_data["start_message_sent"] = True
+    
     context.user_data["menu"] = "main"
     context.user_data['area'] = None
     context.user_data['location'] = None
-    isUserLocation = context.user_data.get("isUserLocation", False)  # Fetch the isUserLocation state
+    isUserLocation = context.user_data.get("isUserLocation", False)
 
     buttons = get_main_menu_buttons(isUserLocation)
-    await send_welocme_message(update, context)
     await update.message.reply_text(
         "🏞️ <b>בחר אפשרות:</b>", 
         parse_mode='HTML', 
         reply_markup=InlineKeyboardMarkup(buttons)
     )
-async def send_welocme_message(update: Update, context: CallbackContext):
+async def send_welcome_message(update: Update, context: CallbackContext):
     welcome_message = (
         "👊 **ברוך הבא לבוט הטיולים שלנו!** 🏞️\n\n"
         "בבוט הזה תוכל לבחור מיקום בארץ ולמצוא את המעלה הבא שלך לפי רמת קושי.\n\n"

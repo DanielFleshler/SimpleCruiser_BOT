@@ -1,2 +1,4 @@
-#ignore local .env file
+
+#ignore .env file
 .env
+
