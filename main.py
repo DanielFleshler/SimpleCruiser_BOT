@@ -2,7 +2,8 @@ import os
 from dotenv import load_dotenv
 import json
 from math import sqrt, trunc
-
+from collections import defaultdict
+import time
 from pyproj import Transformer
 from telegram import (
     InlineKeyboardButton,
@@ -21,6 +22,10 @@ from telegram.ext import (
     filters,
 )
 
+
+# Store recent message IDs and timestamps
+recent_messages = defaultdict(dict)
+COOLDOWN_PERIOD = 1 # seconds
 # Load environment variables
 load_dotenv()
 
@@ -107,16 +112,27 @@ def get_trail_links_by_difficulty(area, location, difficulty, trail_data):
 
 # Handle the /start command
 async def start(update: Update, context: CallbackContext):
-    if not context.user_data.get("start_message_sent", False):
-        await send_welcome_message(update, context)
-        context.user_data["start_message_sent"] = True
-    
+    user_id = update.effective_user.id
+    message_id = update.message.message_id
+    current_time = time.time()
+
+    # Check for duplicate messages and cooldown
+    if user_id in recent_messages:
+        if message_id in recent_messages[user_id]:
+            return  # Ignore duplicate message
+        if current_time - recent_messages[user_id].get('timestamp', 0) < COOLDOWN_PERIOD:
+            return  # Ignore if within cooldown period
+
+    # Update recent messages
+    recent_messages[user_id] = {'message_id': message_id, 'timestamp': current_time}
+
     context.user_data["menu"] = "main"
     context.user_data['area'] = None
     context.user_data['location'] = None
     isUserLocation = context.user_data.get("isUserLocation", False)
 
     buttons = get_main_menu_buttons(isUserLocation)
+    await send_welcome_message(update, context)
     await update.message.reply_text(
         "🏞️ <b>בחר אפשרות:</b>", 
         parse_mode='HTML', 
