@@ -53,7 +53,7 @@ def get_main_menu_buttons(is_user_location):
         [InlineKeyboardButton("🌲 צפון", callback_data="area:3")]
     ]
     if is_user_location:
-        buttons.append([InlineKeyboardButton("🔍 הצג מסלולים לידך", callback_data="showTrails")])
+        buttons.append([InlineKeyboardButton("🔍 הצג מעלות לידך", callback_data="showTrails")])
     else:
         buttons.append([InlineKeyboardButton("📍 שתף מיקום", callback_data="userLocation")])
     return buttons
